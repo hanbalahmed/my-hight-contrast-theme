@@ -1,0 +1,30 @@
+{
+  "name": "my-high-contrast-theme",
+  "displayName": "my-high-contrast-theme",
+  "description": "this is my first hight contrast theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/unnamed.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanbalahmed/my-hight-contrast-theme"
+  },
+  "publisher": "codewithHanbal",
+  "author": {
+    "name": "Hanbal Ahmed"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "codewithHanbal high-contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/codewithHanbal high-contrast-color-theme.json"
+      }
+    ]
+  }
+}
